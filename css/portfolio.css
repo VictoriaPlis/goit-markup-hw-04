@@ -391,13 +391,41 @@ li {
 }
 
 
-.auth-nav .item:nth-child(odd) {
+.auth-nav__item:nth-child(odd) {
     margin-right: 10px;
 }
 
-.auth-nav .item:nth-child(3) {
+.auth-nav__item:nth-child(3) {
     margin-left: 30px;
 
+}
+
+.icon-envelope {
+    width: 16px;
+    height: 11.2px;
+    margin-right: 10px;
+    padding-top: 2px;
+    fill: #757575;;
+
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus {
+    fill: var(--accent-color);
+}
+
+.icon-smartphone {
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 30px;
+    fill: #757575;
+
+}
+
+.icon-smartphone:hover,
+.icon-smartphone:focus {
+    fill: var(--accent-color);
 }
 
 
@@ -604,7 +632,7 @@ address {
 
 
 /*button*/
-.button-primary {
+.auth-nav__button {
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
@@ -612,11 +640,11 @@ address {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.button-primary:hover,
-.button-primary:focus {
+.auth-nav__button:hover,
+.auth-nav__button:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-
 
 
 .button-footer__email {
