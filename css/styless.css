@@ -115,48 +115,49 @@ a {
 }
 
 
+
+.auth-nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+}
+
+.auth-nav__link:focus,
+.auth-nav__link:hover {
+    color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+    
+
+
+
+
 .auth-nav__item:nth-child(odd) {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
-.auth-nav__item:nth-child(3) {
-    margin-left: 30px;
 
-}
-
-.auth-nav__icon-envelope {
-    width: 16px;
-    height: 11.2px;
+.auth-nav__icon-svg {
     margin-right: 10px;
     padding-top: 2px;
-    fill: #757575;;
-
-}
-.auth-nav__icon {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.auth-nav__icon:hover,
-.auth-nav__icon:focus {
-    fill: var(--accent-color);
-}
-
-.icon-smartphone {
-    width: 10px;
-    height: 15px;
-    margin-right: 10px;
-    margin-left: 30px;
     fill: #757575;
 
 }
 
-.icon-smartphone:hover,
-.icon-smartphone:focus {
+
+.auth-nav__icon-svg:hover,
+.auth-nav__icon-svg:focus {
     fill: var(--accent-color);
 }
+
 
 .logo {
     font-family: Raleway;
@@ -713,19 +714,7 @@ a {
 }
 
 /*button*/
-.auth-nav__button {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-}
-.auth-nav__button:hover,
-.auth-nav__button:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
+
 
 .adv-button {
     width: 278px;
