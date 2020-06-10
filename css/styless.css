@@ -107,7 +107,7 @@ a {
     margin-left: 50px;
 }
 
-.auth-nav { 
+.auth-nav__list { 
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -124,7 +124,7 @@ a {
 
 }
 
-.icon-envelope {
+.auth-nav__icon-envelope {
     width: 16px;
     height: 11.2px;
     margin-right: 10px;
@@ -132,9 +132,15 @@ a {
     fill: #757575;;
 
 }
+.auth-nav__icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
-.icon-envelope:hover,
-.icon-envelope:focus {
+.auth-nav__icon:hover,
+.auth-nav__icon:focus {
     fill: var(--accent-color);
 }
 
@@ -189,7 +195,7 @@ a {
     font-size: 22px;    
     line-height: 1.2px;
     letter-spacing: 0.03em;
-    color: black;
+    color: white;
 }
 
 a {
